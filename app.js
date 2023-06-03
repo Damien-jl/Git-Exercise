@@ -1,7 +1,8 @@
-let letters = document.querySelectorAll('.letter')
+let letters = document.querySelectorAll('.letter');
+let body = document.querySelector('body');
 function randRGB () {
     let r = Math.floor(Math.random() * 256);
-    let g = Math.floor(Math.random() * 256);
+    let g = Math.floor(Math.random() * 0);
     let b = Math.floor(Math.random() * 256);
     return `rgb(${r},${g},${b})`;
 }
